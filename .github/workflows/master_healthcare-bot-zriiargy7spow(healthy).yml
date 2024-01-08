@@ -53,4 +53,4 @@ jobs:
           app-name: 'healthcare-bot-zriiargy7spow'
           slot-name: 'healthy'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_FCB6FDD44ED743E8871911DCA4BAC098 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_306B2CFC19DF44A796769F828F5D677B }}
