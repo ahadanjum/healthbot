@@ -19,7 +19,7 @@ jobs:
       - name: Set up Node.js version
         uses: actions/setup-node@v3
         with:
-          node-version: '6.9.1'
+          node-version: '16.x'
 
       - name: npm install, build, and test
         run: |
@@ -53,4 +53,4 @@ jobs:
           app-name: 'healthcare-bot-zriiargy7spow'
           slot-name: 'healthy'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_306B2CFC19DF44A796769F828F5D677B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_7CAB3DF67AB44F649F7811FAAD52BA4E }}
