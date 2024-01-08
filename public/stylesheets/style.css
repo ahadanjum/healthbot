@@ -6,9 +6,15 @@ body {
 }
 
 #webchat {
-  height: 100%;
-  width: 100%;
+  position: fixed;
+  right: 50%; /* Position it on the right side, leaving 50% space */
+  bottom: 10px; /* Leave some space at the bottom */
+  top: 10px; /* Leave some space at the top */
+  width: calc(50% - 20px); /* Take up half the width of the screen, minus a little for padding */
+  border: 1px solid #ddd; /* Optional: adds a border around the chat window */
+  overflow: auto; /* Adds scroll bars if content overflows */
 }
+
 
 #webchat[watermark="true"] [role="complementary"] ul[role="list"]::after {
   content: "Powered By ...";
